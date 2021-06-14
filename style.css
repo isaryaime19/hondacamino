@@ -1,0 +1,50 @@
+.banner{
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    font-size: 30px;
+}
+
+.dropdown-item{
+    font-size: 30px;
+}
+
+.logos{
+    margin-bottom: 30px;
+    color: white;   
+  }
+
+  .line{
+    border-bottom: 10px solid darkgoldenrod;;    
+  }
+
+  .borde{      
+    border-top-left-radius: 15px;
+    background-color: darkgoldenrod;
+    border-bottom: 10px solid darkgoldenrod;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .banner button{
+      width: 350px;
+      border-radius: 5px;
+      font-size: 25px;
+  }
+
+.btn{
+    width: 250px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
