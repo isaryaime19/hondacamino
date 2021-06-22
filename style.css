@@ -1,7 +1,14 @@
 .banner{
     padding: 50px;
     margin-bottom: 10px;
+    
 }
+
+.navbar-brand{
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+
 
 .nav-link{
     font-size: 30px;
@@ -35,13 +42,13 @@
   }
 
 .btn{
-    width: 250px;
+    width: 350px;
     font-size: 20px;
     padding: 15px;
 }
 
 .foot{
-    background-color: black;
+    background-color: rgb(46, 44, 44);
     color: white;
     padding: 50px;
     margin-top: 20px;
