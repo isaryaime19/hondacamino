@@ -47,6 +47,12 @@
     padding: 15px;
 }
 
+.hc{
+    color: red;
+    font-weight: bold;
+    font-size: 65px;
+}
+
 .foot{
     background-color: rgb(46, 44, 44);
     color: white;
