@@ -1,5 +1,10 @@
-
+body{
+    background-color: black;
+    color: white;
+}
 .banner {
+    position: absolute;
+    height: 80vh;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
 }
@@ -19,9 +24,17 @@
     color: black;
 }
 
+.bg-gold {
+    background-color: darkgoldenrod;
+   
+}
+
 .btn-black {
     background: black;
     color: white;
+    width:350px ;
+    font-size: 20px;
+    padding: 15px;
 }
 
 .navbar-brand{
@@ -43,9 +56,13 @@
 }
 
 .logos{
-    margin-bottom: 30px;
-    color: white;   
+    position: relative;
+    margin-top: 595px;    
   }
+
+.logos-1 > p {
+    font-size: 30px;
+}
 
  /* .line{
     border-bottom: 10px solid darkgoldenrod;;    
@@ -53,7 +70,9 @@
 
   .borde{      
     border-top-left-radius: 100px;
-   border-bottom-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 10px black solid;
+    border-bottom: 10px black solid;
    }
 
   .banner button{
@@ -71,7 +90,7 @@
 .hc{
     color: darkgoldenrod;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 75px;
 }
 
 .card-houder {
