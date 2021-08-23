@@ -1,7 +1,27 @@
-.banner{
-    padding: 50px;
-    margin-bottom: 10px;
-    
+
+.banner {
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.honda {
+    width: 550px;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+
+.bg-white {
+    background-color:white;
+    color: black;
+}
+
+.btn-black {
+    background: black;
+    color: white;
 }
 
 .navbar-brand{
@@ -18,25 +38,26 @@
     font-size: 30px;
 }
 
+.banner-text {
+    color: white;
+}
+
 .logos{
     margin-bottom: 30px;
     color: white;   
   }
 
-  .line{
+ /* .line{
     border-bottom: 10px solid darkgoldenrod;;    
-  }
+  }*/
 
   .borde{      
-    border-top-left-radius: 15px;
-    background-color: darkgoldenrod;
-    border-bottom: 10px solid darkgoldenrod;
-    text-align: center;
-    font-size: 20px;
-  }
+    border-top-left-radius: 100px;
+   border-bottom-right-radius: 100px;
+   }
 
   .banner button{
-      width: 350px;
+      width: 300px;
       border-radius: 5px;
       font-size: 25px;
   }
@@ -48,14 +69,16 @@
 }
 
 .hc{
-    color: red;
+    color: darkgoldenrod;
     font-weight: bold;
     font-size: 65px;
 }
 
+.card-houder {
+   border-top-left-radius: 250px; 
+}
+
 .foot{
-    background-color: rgb(46, 44, 44);
-    color: white;
     padding: 50px;
     margin-top: 20px;
     font-size: 25px;
