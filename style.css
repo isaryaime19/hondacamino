@@ -4,14 +4,14 @@ body{
 }
 .banner {
     position: absolute;
+    background-image: url("img/Honda_Camino.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
     height: 80vh;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
 }
 
-.honda {
-    width: 550px;
-}
 
 .bg-black {
     background-color: black;
@@ -25,7 +25,7 @@ body{
 }
 
 .bg-gold {
-    background-color: darkgoldenrod;
+    background-color: rgba(184, 135, 11, 0.911);
    
 }
 
@@ -64,16 +64,19 @@ body{
     font-size: 30px;
 }
 
+.logos-2 {
+    position: absolute;
+    padding: 50px;
+    border-top-left-radius: 250px; 
+}
+
  /* .line{
     border-bottom: 10px solid darkgoldenrod;;    
   }*/
 
-  .borde{      
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-top: 10px black solid;
-    border-bottom: 10px black solid;
-   }
+  .borde{    
+      background-color: rgba(0, 0, 0, 0.664);
+    }
 
   .banner button{
       width: 300px;
@@ -87,19 +90,48 @@ body{
     padding: 15px;
 }
 
+.btn-orange {
+    background-color:darkgoldenrod;
+    color: white;
+}
+
 .hc{
-    color: darkgoldenrod;
-    font-weight: bold;
+    color: white;
     font-size: 75px;
+}
+
+.hc-1{
+    color:rgb(255, 166, 0);
+    font-size: 45px;
 }
 
 .card-houder {
    border-top-left-radius: 250px; 
 }
 
+.card > img{
+    width: 70%;
+}
+
+.img-fluid {
+    width: 80%;
+}
+
+.transp-card {
+    position: relative;
+    width: 50%;
+    color: black;
+    padding: 30px;
+    margin-top: 400px;
+}
+.foot-nav > p, a{
+    color: white;
+    cursor: pointer;
+}
+
 .foot{
     padding: 50px;
-    margin-top: 20px;
     font-size: 25px;
     text-align: center;
+    border-bottom-right-radius: 250px; 
 }
