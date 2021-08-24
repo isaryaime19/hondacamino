@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    font-family: 'Play', sans-serif;
 }
 .banner {
     position: absolute;
@@ -65,7 +66,7 @@ body{
 }
 
 .logos-2 {
-    position: absolute;
+   
     padding: 50px;
     border-top-left-radius: 250px; 
 }
@@ -85,7 +86,7 @@ body{
   }
 
 .btn{
-    width:350px ;
+    width:250px ;
     font-size: 20px;
     padding: 15px;
 }
@@ -110,7 +111,7 @@ body{
 }
 
 .card > img{
-    width: 70%;
+    width: 100%;
 }
 
 .img-fluid {
@@ -134,4 +135,64 @@ body{
     font-size: 25px;
     text-align: center;
     border-bottom-right-radius: 250px; 
+}
+
+/* Media query */
+@media screen and (max-width:745px) {
+    .banner {
+        height: 50%;
+    }
+    
+    .btn {
+        width: fit-content;
+    }
+
+    .borde > button {
+        width: 100%;
+        font-size: 100%;
+    }
+
+    .hc {
+        font-size: 150%;
+    }
+
+    .hc-1{
+        font-size: 150%;
+    }
+
+    .transp-card {
+        visibility: hidden;        
+    }
+
+    .logos-2 {
+        margin-bottom: 300px;
+    }
+
+    
+}
+
+@media screen and (min-width:747px) and (max-width:1025px) {
+    .banner {
+        height: 50%;
+    }
+
+    .btn {
+        width: fit-content;
+        font-size: 90%;
+    }
+
+    .hc {
+        font-size: 180%;
+    }
+
+    .hc-1{
+        font-size: 180%;
+    }
+
+    .borde > button {
+        width: 80%;
+        font-size: 180%;
+    }
+    
+    
 }
