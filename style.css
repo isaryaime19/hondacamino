@@ -23,6 +23,10 @@ body{
     background-color: rgba(0, 0, 0, 0.664);
   }
 
+  .borde1{    
+    background-color: rgba(0, 0, 0, 0.89);
+  }
+
 .banner button{
     width: 300px;
     border-radius: 5px;
@@ -80,7 +84,10 @@ body{
     font-size: 30px;
 }
 
-
+/* fontawensome */
+.nav-icon > i {
+    cursor: pointer;
+}
 
 .logos{
     position: relative;
@@ -148,13 +155,7 @@ body{
     border-bottom-right-radius: 250px; 
 }
 
-/* Gallery 
-.img-container {
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-*/
-
+/* gallery */
 .img-container > img {
     width: 70%;
     margin-top: 15px;
