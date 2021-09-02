@@ -166,14 +166,18 @@ body{
     .banner {
         height: 50%;
     }
-    
+
+    .fa-2x {
+        font-size: 30px;
+    }
+
     .btn {
         width: fit-content;
     }
 
     .borde > button {
-        width: 100%;
-        font-size: 100%;
+        width: 80%;
+        font-size: 80%;
     }
 
     .hc {
@@ -181,7 +185,7 @@ body{
     }
 
     .hc-1{
-        font-size: 150%;
+        font-size: 130%;
     }
 
     .transp-card {
@@ -200,10 +204,16 @@ body{
         height: 50%;
     }
 
-    .btn {
-        width: fit-content;
-        font-size: 90%;
+    .card-body > button {
+        width: 70%;
+        font-size: 70%;
     }
+
+    .btn-b > button {
+        width: 70%;
+        padding: 5px;
+    }
+
 
     .hc {
         font-size: 180%;
@@ -218,5 +228,13 @@ body{
         font-size: 180%;
     }
     
-    
+    .card-title > p {
+        font-size: 70%;
+    }
+
+    .card-text  {
+        font-size: 30px;
+    }
+
+   
 }
