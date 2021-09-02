@@ -150,7 +150,7 @@ body{
 
 .foot{
     padding: 50px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     border-bottom-right-radius: 250px; 
 }
@@ -195,7 +195,10 @@ body{
     .logos-2 {
         margin-bottom: 300px;
     }
-
+    
+    .email > p {
+        font-size: 80%;
+    }
     
 }
 
@@ -204,9 +207,12 @@ body{
         height: 50%;
     }
 
-    .card-body > button {
-        width: 70%;
-        font-size: 70%;
+   .card-body > a {
+    width: fit-content;
+   }  
+
+    .btn {
+        width: fit-content;
     }
 
     .btn-b > button {
@@ -233,6 +239,10 @@ body{
     }
 
     .card-text  {
+        font-size: 30px;
+    }
+
+    .card > p, h1 {
         font-size: 30px;
     }
 
